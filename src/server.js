@@ -4,7 +4,7 @@ import cors from "cors";
 
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://ffxiv-itemserch.netlify.app/"], //허용할 origin 주소
+  origin: "https://ffxiv-itemserch.netlify.app", //허용할 origin 주소
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, // 인증 정보를 포함한 요청 허용
 }
